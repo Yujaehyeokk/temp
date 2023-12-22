@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "temp"
+  title: "유재혁"
   navbar:
     right:
       - about.qmd
