@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -191,7 +191,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(13)</span></div><div class="category" data-category="matplotlib">matplotlib <span class="quarto-category-count">(5)</span></div><div class="category" data-category="pandas">pandas <span class="quarto-category-count">(3)</span></div><div class="category" data-category="plotly">plotly <span class="quarto-category-count">(1)</span></div><div class="category" data-category="plotnine">plotnine <span class="quarto-category-count">(4)</span></div><div class="category" data-category="seaborn">seaborn <span class="quarto-category-count">(3)</span></div><div class="category" data-category="자료분석">자료분석 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="통계와 시각화">통계와 시각화 <span class="quarto-category-count">(4)</span></div><div class="category" data-category="훌륭한 시각화">훌륭한 시각화 <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -205,19 +205,457 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1703225478392" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1667088000000" data-listing-file-modified-sort="1703225677468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="633">
 <div class="thumbnail">
-<p><a href="./posts/first.html" class="no-external"></a></p><a href="./posts/first.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/first.html" class="no-external"></a></p>
+<p><a href="./posts/2022-10-30-9wk-1-mid.html" class="no-external"></a></p><a href="./posts/2022-10-30-9wk-1-mid.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-10-30-9wk-1-mid_files/figure-html/cell-3-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-10-30-9wk-1-mid.html" class="no-external"></a></p>
 </div>
 <div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-10-30-9wk-1-mid.html" class="no-external">midterm</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-10-30-9wk-1-mid.html" class="no-external"></a>
+</div>
 <div class="listing-description">
-<a href="./posts/first.html" class="no-external">유재혁의 첫번쨰 포스트</a>
+<a href="./posts/2022-10-30-9wk-1-mid.html" class="no-external">중간고사</a>
 </div>
 </div>
 <div class="metadata">
-<p><a href="./posts/first.html" class="no-external"></a></p><a href="./posts/first.html" class="no-external">
+<a href="./posts/2022-10-30-9wk-1-mid.html" class="no-external">
+<div class="listing-date">
+Oct 30, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="pandas,자료분석,plotnine" data-listing-date-sort="1666569600000" data-listing-file-modified-sort="1703225676944" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="533">
+<div class="thumbnail">
+<p><a href="./posts/2022-10-24-8wk-12.html" class="no-external"></a></p><a href="./posts/2022-10-24-8wk-12.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-10-24-8wk-12_files/figure-html/cell-47-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-10-24-8wk-12.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-10-24-8wk-12.html" class="no-external">08wk-1,2</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-10-24-8wk-12.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('pandas'); return false;">
+pandas
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('자료분석'); return false;">
+자료분석
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('plotnine'); return false;">
+plotnine
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-10-24-8wk-12.html" class="no-external">판다스– 새로운 열의 할당(2), 자료분석–FIFA23 데이터분석, 판다스– Groupby</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-10-24-8wk-12.html" class="no-external">
+<div class="listing-date">
+Oct 24, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="통계와 시각화,plotnine" data-listing-date-sort="1666137600000" data-listing-file-modified-sort="1703225676420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="416">
+<div class="thumbnail">
+<p><a href="./posts/2022-10-19-7wk-2.html" class="no-external"></a></p><a href="./posts/2022-10-19-7wk-2.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-10-19-7wk-2_files/figure-html/cell-7-output-2.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-10-19-7wk-2.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-10-19-7wk-2.html" class="no-external">07wk-2</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-10-19-7wk-2.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('통계와 시각화'); return false;">
+통계와 시각화
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('plotnine'); return false;">
+plotnine
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-10-19-7wk-2.html" class="no-external">아이스크림을 많이 먹으면 걸리는 병(2)</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-10-19-7wk-2.html" class="no-external">
+<div class="listing-date">
+Oct 19, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="pandas,통계와 시각화" data-listing-date-sort="1665964800000" data-listing-file-modified-sort="1703225675916" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="484">
+<div class="thumbnail">
+<p><a href="./posts/2022-10-17-7wk-1.html" class="no-external"></a></p><a href="./posts/2022-10-17-7wk-1.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-10-17-7wk-1_files/figure-html/cell-48-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-10-17-7wk-1.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-10-17-7wk-1.html" class="no-external">07wk-1</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-10-17-7wk-1.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('pandas'); return false;">
+pandas
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('통계와 시각화'); return false;">
+통계와 시각화
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-10-17-7wk-1.html" class="no-external">판다스– 인덱싱(2), 판다스–새로운열의할당(1), 아이스크림을 많이 먹으면 걸리는 병(1)</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-10-17-7wk-1.html" class="no-external">
+<div class="listing-date">
+Oct 17, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="pandas" data-listing-date-sort="1665532800000" data-listing-file-modified-sort="1703225675480" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="601">
+<div class="thumbnail">
+<p><a href="./posts/2022-10-12-6wk-12.html" class="no-external"></a></p><a href="./posts/2022-10-12-6wk-12.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-10-12-6wk-12_files/figure-html/cell-15-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-10-12-6wk-12.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-10-12-6wk-12.html" class="no-external">06wk-1,2</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-10-12-6wk-12.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('pandas'); return false;">
+pandas
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-10-12-6wk-12.html" class="no-external">lambda, map, 판다스–인덱싱(1)</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-10-12-6wk-12.html" class="no-external">
+<div class="listing-date">
+Oct 12, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="훌륭한 시각화,plotnine" data-listing-date-sort="1665014400000" data-listing-file-modified-sort="1703225674996" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="794">
+<div class="thumbnail">
+<p><a href="./posts/2022-10-06-5wk-2.html" class="no-external"></a></p><a href="./posts/2022-10-06-5wk-2.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-10-06-5wk-2.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-10-06-5wk-2.html" class="no-external">05wk-2</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-10-06-5wk-2.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('훌륭한 시각화'); return false;">
+훌륭한 시각화
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('plotnine'); return false;">
+plotnine
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-10-06-5wk-2.html" class="no-external">훌륭한 시각화, mpg 데이터 소개, plotnine(p9)을 이용한 고차원 산점도</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-10-06-5wk-2.html" class="no-external">
+<div class="listing-date">
+Oct 6, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="seaborn,matplotlib" data-listing-date-sort="1664928000000" data-listing-file-modified-sort="1703225674488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
+<div class="thumbnail">
+<p><a href="./posts/2022-10-03-5wk-1.html" class="no-external"></a></p><a href="./posts/2022-10-03-5wk-1.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-10-03-5wk-1_files/figure-html/cell-4-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-10-03-5wk-1.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-10-03-5wk-1.html" class="no-external">05wk-1</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-10-03-5wk-1.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('seaborn'); return false;">
+seaborn
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('matplotlib'); return false;">
+matplotlib
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-10-03-5wk-1.html" class="no-external">seaborn(2)–scatterplot, mpl미세먼지팁(2)</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-10-03-5wk-1.html" class="no-external">
+<div class="listing-date">
+Oct 5, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="seaborn" data-listing-date-sort="1664323200000" data-listing-file-modified-sort="1703225674008" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+<div class="thumbnail">
+<p><a href="./posts/2022-09-28-4wk-2.html" class="no-external"></a></p><a href="./posts/2022-09-28-4wk-2.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-09-28-4wk-2_files/figure-html/cell-4-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-09-28-4wk-2.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-09-28-4wk-2.html" class="no-external">04wk-2</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-09-28-4wk-2.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('seaborn'); return false;">
+seaborn
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-09-28-4wk-2.html" class="no-external">seaborn(1)–seaborn특징,boxplot,lineplot</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-09-28-4wk-2.html" class="no-external">
+<div class="listing-date">
+Sep 28, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="matplotlib" data-listing-date-sort="1664150400000" data-listing-file-modified-sort="1703225673520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
+<div class="thumbnail">
+<p><a href="./posts/2022-09-26-4wk-1.html" class="no-external"></a></p><a href="./posts/2022-09-26-4wk-1.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-09-26-4wk-1_files/figure-html/cell-4-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-09-26-4wk-1.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-09-26-4wk-1.html" class="no-external">04wk-1</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-09-26-4wk-1.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('matplotlib'); return false;">
+matplotlib
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-09-26-4wk-1.html" class="no-external">산점도 응용예제 4 (무상관과 독립), mpl의 미세먼지 팁 (1)</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-09-26-4wk-1.html" class="no-external">
+<div class="listing-date">
+Sep 26, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="matplotlib,통계와 시각화" data-listing-date-sort="1663718400000" data-listing-file-modified-sort="1703225672988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="557">
+<div class="thumbnail">
+<p><a href="./posts/2022-09-21-3wk-2.html" class="no-external"></a></p><a href="./posts/2022-09-21-3wk-2.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-09-21-3wk-2_files/figure-html/cell-4-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-09-21-3wk-2.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-09-21-3wk-2.html" class="no-external">03wk-2</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-09-21-3wk-2.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('matplotlib'); return false;">
+matplotlib
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('통계와 시각화'); return false;">
+통계와 시각화
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-09-21-3wk-2.html" class="no-external">산점도 응용예제 1,2,3 (표본상관계수, 앤스콤플랏, 무상관)</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-09-21-3wk-2.html" class="no-external">
+<div class="listing-date">
+Sep 21, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="matplotlib" data-listing-date-sort="1663545600000" data-listing-file-modified-sort="1703225672552" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="489">
+<div class="thumbnail">
+<p><a href="./posts/2022-09-19-3wk-1.html" class="no-external"></a></p><a href="./posts/2022-09-19-3wk-1.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-09-19-3wk-1_files/figure-html/cell-4-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-09-19-3wk-1.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-09-19-3wk-1.html" class="no-external">03wk-1</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-09-19-3wk-1.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('matplotlib'); return false;">
+matplotlib
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-09-19-3wk-1.html" class="no-external">라인플랏, 산점도, 여러 그림 그리기, fig와 axes의 이해</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-09-19-3wk-1.html" class="no-external">
+<div class="listing-date">
+Sep 19, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="통계와 시각화" data-listing-date-sort="1663113600000" data-listing-file-modified-sort="1703225672040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
+<div class="thumbnail">
+<p><a href="./posts/2022-09-14-2wk-2.html" class="no-external"></a></p><a href="./posts/2022-09-14-2wk-2.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-09-14-2wk-2_files/figure-html/cell-5-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-09-14-2wk-2.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-09-14-2wk-2.html" class="no-external">02wk-2</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-09-14-2wk-2.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('통계와 시각화'); return false;">
+통계와 시각화
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-09-14-2wk-2.html" class="no-external">Histogram equalization</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-09-14-2wk-2.html" class="no-external">
+<div class="listing-date">
+Sep 14, 2022
+</div>
+<div class="listing-author">
+최규빈
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="matplotlib,seaborn,plotnine,plotly" data-listing-date-sort="1662768000000" data-listing-file-modified-sort="1703225728056" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="557">
+<div class="thumbnail">
+<p><a href="./posts/2022-09-10-1wk-1.html" class="no-external"></a></p><a href="./posts/2022-09-10-1wk-1.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-09-10-1wk-1_files/figure-html/cell-5-output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-09-10-1wk-1.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-09-10-1wk-1.html" class="no-external">01wk-1</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-09-10-1wk-1.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('matplotlib'); return false;">
+matplotlib
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('seaborn'); return false;">
+seaborn
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('plotnine'); return false;">
+plotnine
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('plotly'); return false;">
+plotly
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-09-10-1wk-1.html" class="no-external">박스플랏, 히스토그램</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-09-10-1wk-1.html" class="no-external">
+<div class="listing-date">
+Sep 10, 2022
+</div>
+<div class="listing-author">
+유재혁
+</div>
 </a>
 </div>
 </div>

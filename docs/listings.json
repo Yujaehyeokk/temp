@@ -2,7 +2,19 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/first.html"
+      "/posts/2022-10-30-9wk-1-mid.html",
+      "/posts/2022-10-24-8wk-12.html",
+      "/posts/2022-10-19-7wk-2.html",
+      "/posts/2022-10-17-7wk-1.html",
+      "/posts/2022-10-12-6wk-12.html",
+      "/posts/2022-10-06-5wk-2.html",
+      "/posts/2022-10-03-5wk-1.html",
+      "/posts/2022-09-28-4wk-2.html",
+      "/posts/2022-09-26-4wk-1.html",
+      "/posts/2022-09-21-3wk-2.html",
+      "/posts/2022-09-19-3wk-1.html",
+      "/posts/2022-09-14-2wk-2.html",
+      "/posts/2022-09-10-1wk-1.html"
     ]
   }
 ]
